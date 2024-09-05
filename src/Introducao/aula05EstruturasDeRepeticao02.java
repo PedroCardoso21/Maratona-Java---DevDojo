@@ -1,12 +1,12 @@
 package Introducao;
 
 public class aula05EstruturasDeRepeticao02 {
-    // Imprima os primeiros 25 números de 1 dado valor. Por exemplo, 50
+    // Imprima os primeiros 50 números de 1 dado valor. Por exemplo, 100
     public static void main(String[] args) {
-        int valorMax = 50;
+        int valorMax = 100;
 
         for (int i = 0; i <= valorMax; i++){
-            if (i > 25){
+            if (i > 50){
                 break;
             }
             System.out.println("Número: "+i);
