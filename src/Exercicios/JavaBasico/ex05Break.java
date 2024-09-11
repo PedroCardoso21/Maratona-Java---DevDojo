@@ -1,4 +1,4 @@
-package Exercicios;
+package Exercicios.JavaBasico;
 
 public class ex05Break {
     public static void main(String[] args) {

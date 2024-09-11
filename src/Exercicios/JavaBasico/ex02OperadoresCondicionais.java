@@ -1,4 +1,4 @@
-package Exercicios;
+package Exercicios.JavaBasico;
 
 public class ex02OperadoresCondicionais {
     public static void main(String[] args) {

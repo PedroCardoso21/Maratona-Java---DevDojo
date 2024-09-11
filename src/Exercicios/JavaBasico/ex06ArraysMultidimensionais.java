@@ -1,4 +1,4 @@
-package Exercicios;
+package Exercicios.JavaBasico;
 
 public class ex06ArraysMultidimensionais {
     public static void main(String[] args) {
