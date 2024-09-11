@@ -1,4 +1,4 @@
-package Exercicios;
+package Exercicios.JavaBasico;
 /*
 Crie variáveis para os campos descritos abaixo entre <> e imprima a mensagem:
 

@@ -1,4 +1,4 @@
-package Exercicios;
+package Exercicios.JavaBasico;
 
 public class ex04For {
     public static void main(String[] args) {

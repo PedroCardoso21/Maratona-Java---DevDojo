@@ -1,4 +1,4 @@
-package Exercicios;
+package Exercicios.JavaBasico;
 
 public class ex03Switch {
     public static void main(String[] args) {
