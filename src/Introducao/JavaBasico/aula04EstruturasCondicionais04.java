@@ -1,4 +1,4 @@
-package Introducao;
+package Introducao.JavaBasico;
 
 public class aula04EstruturasCondicionais04 {
     public static void main(String[] args) {

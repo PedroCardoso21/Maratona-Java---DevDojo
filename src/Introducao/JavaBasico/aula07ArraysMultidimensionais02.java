@@ -1,4 +1,4 @@
-package Introducao;
+package Introducao.JavaBasico;
 
 public class aula07ArraysMultidimensionais02 {
     public static void main(String[] args) {

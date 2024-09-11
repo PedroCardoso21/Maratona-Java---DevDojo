@@ -1,4 +1,4 @@
-package Introducao;
+package Introducao.JavaBasico;
 
 public class aula05EstruturasDeRepeticao02 {
     // Imprima os primeiros 50 números de 1 dado valor. Por exemplo, 100
