@@ -1,4 +1,4 @@
-package Introducao;
+package Introducao.JavaBasico;
 
 public class aula03Operadores {
     public static void main(String[] args) {

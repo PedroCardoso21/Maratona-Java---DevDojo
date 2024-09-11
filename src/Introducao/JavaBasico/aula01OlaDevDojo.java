@@ -1,4 +1,4 @@
-package Introducao;
+package Introducao.JavaBasico;
 // Primeira aula, comentários
 
 public class aula01OlaDevDojo {

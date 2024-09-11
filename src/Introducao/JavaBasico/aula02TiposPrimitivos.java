@@ -1,4 +1,4 @@
-package Introducao;
+package Introducao.JavaBasico;
 
 public class aula02TiposPrimitivos {
     public static void main(String[] args) {
