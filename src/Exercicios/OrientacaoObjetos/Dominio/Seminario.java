@@ -2,16 +2,11 @@ package Exercicios.OrientacaoObjetos.Dominio;
 
 public class Seminario {
     private String titulo;
-    private SeminariosAlunos[] alunos;
-    private SeminariosLocal local;
+    SeminariosAlunos[] alunos;
+    SeminariosLocal local;
 
     public Seminario(String titulo) {
         this.titulo = titulo;
-    }
-
-    public Seminario(String titulo, SeminariosAlunos[] alunos) {
-        this.titulo = titulo;
-        this.alunos = alunos;
     }
 
     public Seminario(String titulo, SeminariosAlunos[] alunos, SeminariosLocal local) {
@@ -20,12 +15,13 @@ public class Seminario {
         this.local = local;
     }
 
-    public SeminariosAlunos[] getAlunos() {
-        return alunos;
-    }
-
-    public void setAlunos(SeminariosAlunos[] alunos) {
-        this.alunos = alunos;
+    public void imprime() {
+        if (this.alunos == null) {
+            return;
+        }
+        for (SeminariosAlunos aluno : this.alunos) {
+            System.out.println(aluno.getNome() + " - " + aluno.getIdade() + " anos");
+        }
     }
 
     public String getTitulo() {
@@ -34,6 +30,14 @@ public class Seminario {
 
     public void setTitulo(String titulo) {
         this.titulo = titulo;
+    }
+
+    public SeminariosAlunos[] getAlunos() {
+        return alunos;
+    }
+
+    public void setAlunos(SeminariosAlunos[] alunos) {
+        this.alunos = alunos;
     }
 
     public SeminariosLocal getLocal() {

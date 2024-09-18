@@ -21,18 +21,13 @@ import Exercicios.OrientacaoObjetos.Dominio.SeminariosProfessores;
 
 public class SeminarioTest01 {
     public static void main(String[] args) {
-        SeminariosLocal local = new SeminariosLocal("Maricá");
-        SeminariosAlunos aluno1 = new SeminariosAlunos("Pedro", 20);
-        SeminariosProfessores professor = new SeminariosProfessores("Fred", "Biologia");
-        SeminariosAlunos[] alunosSeminario = {aluno1};
-
-        Seminario seminario = new Seminario("Combate a covid", alunosSeminario, local);
-
-        Seminario[] seminariosDisponiveis = {seminario};
-
-        professor.setSeminarios(seminariosDisponiveis);
-
+        SeminariosLocal local = new SeminariosLocal("Rio de Janeiro");
+        SeminariosAlunos aluno1 = new SeminariosAlunos("Pedro", 19);
+        SeminariosAlunos aluno2 = new SeminariosAlunos("Ana", 21);
+        SeminariosAlunos[] alunos = {aluno1, aluno2};
+        Seminario seminario = new Seminario("Combate a covid 19", alunos, local);
+        Seminario[] seminarios = {seminario};
+        SeminariosProfessores professor = new SeminariosProfessores("Fred", "Biologia", seminarios);
         professor.imprime();
-
     }
 }
