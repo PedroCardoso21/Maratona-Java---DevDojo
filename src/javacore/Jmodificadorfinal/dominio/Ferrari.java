@@ -1,6 +1,6 @@
 package javacore.Jmodificadorfinal.dominio;
 
-public class Ferrari extends Carro {
+public class Ferrari {
     private String nome;
 
     public Ferrari (String nome) {
