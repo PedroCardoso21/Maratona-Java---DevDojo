@@ -1,6 +1,7 @@
 package javacore.Npolimorfismo.servico;
 
 import javacore.Npolimorfismo.dominio.Produto;
+import javacore.Npolimorfismo.dominio.Tomate;
 
 public class CalculadoraImposto {
     public static void calculaImposto(Produto produto) {
@@ -11,5 +12,9 @@ public class CalculadoraImposto {
         System.out.println("Imposto do produto: " + imposto);
         double valorFinal = produto.getValor() - imposto;
         System.out.println("Valor final do produto: " + valorFinal);
+        if (produto instanceof Tomate) {
+            Tomate tomate = (Tomate) produto;
+            System.out.println(tomate.getDataValidade());
+        }
     }
 }
