@@ -1,6 +1,6 @@
 package Introducao.JavaBasico;
 
-public class aula04EstruturasCondicionais03 {
+public class    aula04EstruturasCondicionais03 {
     public static void main(String[] args) {
         // Doar se salario > 2000
         double salario = 2500;
